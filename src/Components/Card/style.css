@@ -1,0 +1,26 @@
+.card-content {
+  border: 1px solid #edecec;
+  padding: 40px 20px;
+  text-align: justify;
+}
+.card-content-dark {
+  border: 1px solid #2e2c2c;
+  padding: 40px 20px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+  .card-content {
+    width: 100%;
+    border: 1px solid #edecec;
+    padding: 40px 20px;
+    text-align: justify;
+  }
+  .card-content-dark {
+    width: 250px;
+    border: 1px solid #2e2c2c;
+    padding: 40px 20px;
+    text-align: justify;
+  }
+  
+}

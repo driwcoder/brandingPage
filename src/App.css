@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+.app {
+  width: 100%;
+}
+.forma {
+  margin: 0 auto;
+  width: 1024px;
+}
+/* HEADER */
+.header-dark{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px ;
+}
+.header-content {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px ;
+}
+.modeImg {
+  width: 40px;
+  height: 40px;
+}
+.button {
+  border: 1px solid rgb(249, 219, 121);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* BANNER */
+.da-imagem {
+  align-self: end;
+  display: flex;
+}
+.da-imagem img {
+  width: 400px;
+}
+.banner-content {
+  display: flex;
+  height: fit-content;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.texts-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.banner {
+  color: #000000;
+  background-color: rgb(250, 251, 252);
+}
+.banner-dark {
+  color: rgb(250, 251, 252);
+  background-color: #000000;
+}
+
+/* WORK EXPERIENCE */
+.work-dark {
+  background-color: rgb(246, 248, 252);
+  padding: 70px 0;
+}
+.work {
+  background-color: rgb(57, 56, 56);
+  color: whitesmoke;
+  padding: 70px 0;
+}
+
+.work-content {
+  text-align: center;
+}
+.work-text {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  
+  color: #ffffff;
+}
+.work-text-dark {
+  color: #8a8fa3;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  
+}
+
+.linha-amarela {
+  border: 1px solid rgb(254, 182, 51);
+  width: 70px;
+  height: 1px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.work-content h1 {
+  margin: 30px;
+  color: #8a8fa3;
+}
+.work h1 {
+  margin: 30px;
+  color: whitesmoke;
+}
+
+/* CARD */
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.card-content:hover {
+  background-color: #feb633;
+}
+.card-content h3{
+  margin: 10px 0 0 0;
+}
+.data {
+  color: #8a8fa3;
+}
+
+.card-content .empresa, .card-content .data {
+  margin-bottom: 0;
+  color: #8a8fa3;
+  font-size: 12px;
+}
+
+.paragrafo{
+  margin-top: 10px;
+  font-size: 12px;
+  margin-bottom: 0;
+  color: #8a8fa3;
+}
+
+
+/* FOOTER */
+
+.footer {
+  background-color: #fff;
+  color: black;
+}
+.footer-dark {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 15px 0;
+}
+.footer-text {
+  width: 500px;
+  text-align: center;
+}
+
+.footer-content .logotipo {
+  margin-bottom: 20px;
+}
+
+.footer-content p:last-of-type {
+  font-size: 12px;
+}
+.footer-content span {
+  font-size: 12px;
+  color: #feb633;
+  font-weight: bold;
+}
+
+.socials {
+  margin: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.socials img {
+  width: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .da-imagem {
+    display: none;
+  }
+  .forma {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .banner-content {
+    padding: 50px 15px;
+  }
+  .footer-text {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  .socials {
+    width: 100%;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
